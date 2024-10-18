@@ -1,0 +1,85 @@
+ body{
+  font-family: Arial;
+  background-color: #f4f4f4;
+  padding: 30px;
+  color: #333;
+  background-image: url('./img/IMG-20241013-WA0198.jpg');
+  background-position: center;
+  background-size: cover;
+ }
+
+ .app{
+  max-width: 800px;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 20px 30px;
+  border-radius: 10px;
+  color: blue;
+ }
+
+ h1{
+  text-align: center;
+ }
+
+h2{
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+p{
+  margin: 10px 0;
+  color: black;
+  
+}
+input{
+  box-sizing: border-box;
+} 
+ 
+button{
+  background-color: #743349;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.8;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+button:hover{
+  opacity:1;
+}
+
+.todo-form{
+  padding-bottom:1,5rem ;
+}
+
+input,select{
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: 100%;
+
+}
+
+.complete{
+  background-color: #5cb85c;
+}
+
+.remove{
+  background-color: #d9534f ;
+}
+
+.todo-list{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.todo{
+  border-bottom: 2px solid beige;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
